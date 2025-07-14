@@ -54,16 +54,27 @@
 
     <!-- Header -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
-        <nav class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center relative">
-            <button id="mobile-menu-button" class="md:hidden text-gray-700 hover:text-gray-900"><i class="fas fa-bars text-2xl"></i></button>
-            <a href="#" class="logo-link text-2xl md:text-3xl font-bold text-gray-900 absolute left-1/2 -translate-x-1/2">Kweek Tess</a>
-            <div class="flex items-center space-x-4 sm:space-x-6">
-                <button id="search-icon-btn" class="text-gray-700 hover:text-gray-900"><i class="fas fa-search text-xl"></i></button>
-                <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fas fa-user text-xl"></i></a>
-                <a href="#" id="cart-icon" class="relative text-gray-700 hover:text-gray-900">
-                    <i class="fas fa-shopping-cart text-xl"></i>
-                    <span id="cart-count" class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">0</span>
-                </a>
+        <nav class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
+            <!-- Left Side: Mobile Menu Button (or empty space on desktop) -->
+            <div class="w-1/3">
+                <button id="mobile-menu-button" class="md:hidden text-gray-700 hover:text-gray-900"><i class="fas fa-bars text-2xl"></i></button>
+            </div>
+
+            <!-- Center: Logo -->
+            <div class="w-1/3 text-center">
+                <a href="#" class="logo-link text-2xl md:text-3xl font-bold text-gray-900">Kweek Tess</a>
+            </div>
+
+            <!-- Right side: Icons -->
+            <div class="w-1/3 flex justify-end">
+                <div class="flex items-center space-x-4 sm:space-x-6">
+                    <button id="search-icon-btn" class="text-gray-700 hover:text-gray-900"><i class="fas fa-search text-xl"></i></button>
+                    <a href="#" class="text-gray-700 hover:text-gray-900"><i class="fas fa-user text-xl"></i></a>
+                    <a href="#" id="cart-icon" class="relative text-gray-700 hover:text-gray-900">
+                        <i class="fas fa-shopping-cart text-xl"></i>
+                        <span id="cart-count" class="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">0</span>
+                    </a>
+                </div>
             </div>
         </nav>
         <div id="desktop-nav" class="hidden md:flex justify-center items-center space-x-8 py-2 border-t border-gray-200">
