@@ -54,7 +54,7 @@
 
     <!-- Header -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
-        <nav class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
+        <nav class="container mx-auto px-4 sm:px-6 py-3 flex justify-between items-center relative">
             <button id="mobile-menu-button" class="md:hidden text-gray-700 hover:text-gray-900"><i class="fas fa-bars text-2xl"></i></button>
             <a href="#" class="logo-link text-2xl md:text-3xl font-bold text-gray-900 absolute left-1/2 -translate-x-1/2">Kweek Tess</a>
             <div class="flex items-center space-x-4 sm:space-x-6">
